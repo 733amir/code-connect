@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Seller Panel Rewrite</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+    <style>
+        .biiig {
+            transform: scale(3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!--  -->
+            <section>
+                <h1>HI</h1>
+            </section>
+
+            <section>
+                <h4>About Me</h4>
+                <h1>Amir Khazaie</h1>
+                <div style="margin: 64px;">Tech Lead || Software Engineer</div>
+                <div>
+                    <span>
+                        <img src="assets/linkedin.png" height="42px" style="margin: -8px 0 -8px 0;"></img>
+                        AmirKhazaie
+                    </span>
+                    <span>
+                        <img src="assets/github.png" height="56px" style="margin: -14px 0 -14px 0;"></img>
+                        733amir
+                    </span>
+                </div>
+            </section>
+            <section>
+                <h4 data-fragment-index="2" class="fragment">Two Years of</h4>
+                <h2 data-fragment-index="1">Seller Panel</h2>
+                <h4 data-fragment-index="2" class="fragment fade-in">Rewriet</h4>
+            </section>
+            <section>
+                <p class="biiig">WHY</p>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">UX</span>
+                    <!-- Time Duration, Conversion Rate -->
+                    <!-- email in registration, 27m to 7m -->
+
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">TECH</span>
+                    <!-- Web 1.0 -> Web 2.0 -->
+                    <!-- Parallel Work -->
+                    <!-- Team Building -->
+                    <!-- Separating from finance -->
+                </div>
+            </section>
+
+            <section>
+                <p class="biiig">SCALE</p>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">USER</span>
+                    <!-- 350K seller, 10M variant -->
+                    <!-- email in registration, 27m to 7m -->
+
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">TEAM</span>
+                    <!-- 400 Tech, 4 Tribe, Commercial Tribe 50 -->
+
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">CODE</span>
+                </div>
+                <pre>
+                    <code class="fragment" style="font-size: 0.7em; line-height: 1;" data-line-numbers="4-5,7">-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+PHP                          12438         211633          52174        1280765
+JavaScript                    4490         123536          73769         788157
+JSON                            45              0              0         299615
+Twig                          3347          14183           2919         198563
+CSV                             21              0              0         148265
+CSS                            308          13603           8807         108862
+SCSS                           177           8940            526          52767
+SVG                            738             62            147          42219
+HTML                            99           1060            227          13421
+YAML                           193             19             14           9585
+Markdown                        23           1886              0           6046
+Sass                            22            154            127           1853
+Text                             8             42              0            341
+LESS                             4             59             15            221
+XML                             13              7              0            150
+-------------------------------------------------------------------------------
+SUM:                         21926         375184         138725        2950830
+-------------------------------------------------------------------------------
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <p class="biiig">HOW</p>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">BIG BANG</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">INCREMENTAL</span>
+                </div>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">FACE LIFT</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">REDESIGN</span>
+                </div>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">DOC</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">TEST</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">APM</span>
+                </div>
+            </section>
+            <section>
+                <p class="biiig">NOW</p>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">75%</span>
+                </div>
+                <div>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">Registration:</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">27m > 7m</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">17d > 3d</span>
+                    <span class="fragment fade-in-then-semi-out" style="margin: 20px;">5% > 35%</span>
+                </div>
+            </section>
+            <section>Thanks</section>
+        </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+    </script>
+</body>
+
+</html>
